@@ -1,0 +1,23 @@
+.container {
+	min-height: 100vh;
+	padding: 4rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	font-family: "Bebas Neue", cursive;
+}
+
+.name {
+	font-size: 20px;
+}
+
+@media (max-width: 600px) {
+	.grid {
+		width: 100%;
+		flex-direction: column;
+	}
+}
